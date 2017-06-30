@@ -40,6 +40,8 @@ footer>a{
 	margin-bottom: 20px;
 	border-radius: 2%;
 }
+
+
 .navigator{
 	width: 100%;
 	height: 40px;
@@ -48,11 +50,28 @@ footer>a{
 	margin: 0 auto;
 	text-decoration: none;
 }
+
+.film-title{
+	text-align: center;
+}
+
 .ulist-style{
 	list-style: none;
 }
 .form-style{
-	width: 80%;
-	margin-right: 20%;
+	margin-top: 20px;
+}
 
+.form-style>div>label{
+	font-weight: bold;
+}
+
+.buy{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-style{
+	text-align: center;
+	font-weight: bold;
 }

@@ -17,14 +17,18 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="form-control form-style">
-		<h1>Comprar Entradas</h1>
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6 form-control form-style">
+	<div class="form-style">
+		<h1 class="film-title">Comprar Entradas</h1>
 	</div>
-    <div class="form-control">
+    <div class="">
     	<label for="name_surname">Nombre y apellidos</label>
     	<input type="text" class="form-control">
 	</div>
-	<div class"form-control">
+	<div>
 		<select class="form-control" name="cinema">
   			<option value="" selected="selected">- Seleccione cine -</option>
 			<option value="Cinema1">Cine Plaza de Armas</option>
@@ -33,11 +37,11 @@
 			<option value="Cinema4">Cine Los Arcos</option>
 		</select>
 	</div>
-	<div class="form-control">
+	<div class="">
 		<label>Fecha</label>
 		<input class="form-control" type="date" name="Fecha">
 	</div>
-	<div class="form-control">
+	<div class="">
        <label>Fila y asiento</label>
         <select class="form-control">
             <option value="" selected="selected">- Seleccione fila -</option>
@@ -72,9 +76,6 @@
 			<option value="13">13</option>
         </select>
     </div>
-	
-		<div class="form-control">
-        	<form>
          		<div class="">
                 	<label for="owner">Propietario de la tarjeta de crédito</label>
                 	<input type="text" class="form-control">
@@ -110,9 +111,19 @@
                     	<option value="20"> 2020</option>
                     	<option value="21"> 2021</option>
                 	</select>
-            </div>
         </div>
-     <input type="submit" name="buttom" value="Comprar ahora">  
+       </div>
+       </div>
+       <div class="col-3"></div>
+       </div>
+
+	<div class="row">
+		<div class="col-5"></div>
+		<div class="col-2">
+     		<input type="submit" name="buttom" class="btn btn-primary buy" value="Comprar ahora"> 
+		</div>
+     	<div class="col-5"></div>
+     </div> 
 	<footer>
 		<p>2017 Sony Pictures. All rigths reserved</p>
 		<a href="">Privacy Policy</a>
