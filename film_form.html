@@ -8,7 +8,118 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Comprar Entradas</h1>
+	<nav class="navigator">
+		<div>
+			<ul class="row ulist-style">
+				<li class="btn-nav col-4"><a href="index.html">Home</a></li>
+				<li class="btn-nav col-4"><a href="tech_spec.html">Ficha técnica</a></li>
+				<li class="btn-nav col-4"><a href="film_form.html">Comprar entradas</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="form-control form-style">
+		<h1>Comprar Entradas</h1>
+	</div>
+    <div class="form-control">
+    	<label for="name_surname">Nombre y apellidos</label>
+    	<input type="text" class="form-control">
+	</div>
+	<div class"form-control">
+		<select class="form-control" name="cinema">
+  			<option value="" selected="selected">- Seleccione cine -</option>
+			<option value="Cinema1">Cine Plaza de Armas</option>
+			<option value="Cinema2">Cine Alameda</option>
+			<option value="Cinema3">Cine Nervión Plaza</option>
+			<option value="Cinema4">Cine Los Arcos</option>
+		</select>
+	</div>
+	<div class="form-control">
+		<label>Fecha</label>
+		<input class="form-control" type="date" name="Fecha">
+	</div>
+	<div class="form-control">
+       <label>Fila y asiento</label>
+        <select class="form-control">
+            <option value="" selected="selected">- Seleccione fila -</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+        </select>
+        <select class="form-control">
+            <option value="" selected="selected">- Seleccione asiento -</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+        </select>
+    </div>
 	
+		<div class="form-control">
+        	<form>
+         		<div class="">
+                	<label for="owner">Propietario de la tarjeta de crédito</label>
+                	<input type="text" class="form-control">
+         	   </div>
+         	   <div class="">
+            	    <label for="cvv">CVV</label>
+               	 	<input type="text" class="form-control">
+            	</div>
+            	<div class="">
+            	    <label for="cardNumber">Número de la tarjeta</label>
+            	    <input type="text" class="form-control">
+            	</div>
+            	<div>
+               	 	<label>Fecha de expiración</label>
+                	<select class="form-control">
+                    	<option value="01">January</option>
+                    	<option value="02">February </option>
+                   		<option value="03">March</option>
+                   		<option value="04">April</option>
+                   		<option value="05">May</option>
+                   		<option value="06">June</option>
+                   		<option value="07">July</option>
+                   		<option value="08">August</option>
+                   		<option value="09">September</option>
+                   		<option value="10">October</option>
+                   		<option value="11">November</option>
+                   		<option value="12">December</option>
+                	</select>
+                	<select class="form-control">
+                    	<option value="17"> 2017</option>
+                    	<option value="18"> 2018</option>
+                    	<option value="19"> 2019</option>
+                    	<option value="20"> 2020</option>
+                    	<option value="21"> 2021</option>
+                	</select>
+            </div>
+        </div>
+     <input type="submit" name="buttom" value="Comprar ahora">  
+	<footer>
+		<p>2017 Sony Pictures. All rigths reserved</p>
+		<a href="">Privacy Policy</a>
+		<a href="">Terms of use</a>
+		<a href="">Ad choices</a>
+		<a href="">Parental Guides</a>
+		<a href="">Film Rating</a>
+	</footer>
 </body>
 </html>
